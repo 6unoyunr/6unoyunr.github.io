@@ -1,0 +1,128 @@
+@import url("https://giscus.app/themes/light.css");
+
+main {
+  --color-btn-text: #252b34;
+  --color-btn-bg: transparent;
+  --color-btn-border: #b89d78;
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: rgb(184 157 120 / 12%);
+  --color-btn-hover-border: #a98960;
+  --color-btn-active-bg: rgb(184 157 120 / 18%);
+  --color-btn-active-border: #9d7c54;
+  --color-btn-selected-bg: rgb(184 157 120 / 14%);
+  --color-btn-primary-text: #0079bc;
+  --color-btn-primary-bg: transparent;
+  --color-btn-primary-border: #b89d78;
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: rgb(0 133 205 / 8%);
+  --color-btn-primary-hover-border: #a98960;
+  --color-btn-primary-selected-bg: rgb(0 133 205 / 12%);
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: rgb(37 43 52 / 48%);
+  --color-btn-primary-disabled-bg: transparent;
+  --color-btn-primary-disabled-border: rgb(184 157 120 / 52%);
+  --color-action-list-item-default-hover-bg: rgb(0 133 205 / 8%);
+  --color-segmented-control-bg: transparent;
+  --color-segmented-control-button-bg: transparent;
+  --color-segmented-control-button-selected-border: #b89d78;
+  --color-fg-default: #252b34;
+  --color-fg-muted: #555b64;
+  --color-fg-subtle: #686d74;
+  --color-canvas-default: #f7f4ed;
+  --color-canvas-overlay: #f3efe7;
+  --color-canvas-inset: transparent;
+  --color-canvas-subtle: transparent;
+  --color-border-default: #b89d78;
+  --color-border-muted: #cfbea7;
+  --color-neutral-muted: rgb(104 94 79 / 12%);
+  --color-accent-fg: #0079bc;
+  --color-accent-emphasis: #0085cd;
+  --color-accent-muted: rgb(0 133 205 / 28%);
+  --color-accent-subtle: rgb(0 133 205 / 9%);
+  --color-social-reaction-bg-hover: #e8e3da;
+  --color-social-reaction-bg-reacted-hover: #cce9f8;
+
+  color-scheme: light;
+  color: var(--color-fg-default);
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  background-color: var(--color-canvas-default);
+  background-image:
+    radial-gradient(circle at 18% 14%, rgb(37 43 52 / 3%) 0 0.65px, transparent 0.9px),
+    radial-gradient(circle at 74% 61%, rgb(37 43 52 / 2%) 0 0.6px, transparent 0.85px),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgb(37 43 52 / 1.8%) 31px 32px);
+  background-size: 7px 9px, 11px 13px, 100% 32px;
+}
+
+.gsc-main,
+.gsc-header,
+.gsc-comments-count,
+.gsc-reactions-count,
+.gsc-comment-box-tabs,
+.gsc-comment-box-bottom,
+.gsc-comment-box-markdown-hint {
+  color: var(--color-fg-default) !important;
+}
+
+.gsc-comment-box {
+  background-color: transparent;
+  border-color: var(--color-border-default) !important;
+}
+
+.gsc-comment-box {
+  border-width: 1px !important;
+  border-style: dashed !important;
+  border-radius: 6px !important;
+  box-shadow: none;
+}
+
+.gsc-comment {
+  border-style: solid !important;
+  border-radius: 4px !important;
+  box-shadow: none;
+}
+
+.gsc-comment-box-textarea,
+.btn {
+  border-radius: 3px !important;
+}
+
+.gsc-comment-box-textarea {
+  color: var(--color-fg-default) !important;
+  background-color: transparent;
+  border-style: solid !important;
+  border-color: var(--color-border-default) !important;
+}
+
+.gsc-comment-box-textarea::placeholder {
+  color: var(--color-fg-muted) !important;
+  opacity: 1;
+}
+
+.gsc-comment-box-tabs button,
+.gsc-reactions-menu-trigger,
+.btn:not(.btn-primary) {
+  color: var(--color-fg-default) !important;
+  border-color: var(--color-border-default) !important;
+}
+
+.btn-primary {
+  color: var(--color-btn-primary-text) !important;
+  background-color: transparent !important;
+  border-color: var(--color-btn-primary-border) !important;
+}
+
+.gsc-comment-box-tabs button[aria-selected="true"],
+a {
+  color: var(--color-accent-fg) !important;
+}
+
+.btn,
+.form-control {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+}
+
+a {
+  text-underline-offset: 3px;
+}

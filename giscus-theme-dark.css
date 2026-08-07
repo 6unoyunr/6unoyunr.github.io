@@ -1,0 +1,129 @@
+@import url("https://giscus.app/themes/dark.css");
+
+main {
+  --color-btn-text: #ebe6da;
+  --color-btn-bg: transparent;
+  --color-btn-border: #999aa0;
+  --color-btn-shadow: 0 0 transparent;
+  --color-btn-inset-shadow: 0 0 transparent;
+  --color-btn-hover-bg: rgb(235 230 218 / 7%);
+  --color-btn-hover-border: #b2b3b8;
+  --color-btn-active-bg: rgb(235 230 218 / 11%);
+  --color-btn-active-border: #c1c2c6;
+  --color-btn-selected-bg: rgb(235 230 218 / 8%);
+  --color-btn-primary-text: #f6ab00;
+  --color-btn-primary-bg: transparent;
+  --color-btn-primary-border: #999aa0;
+  --color-btn-primary-shadow: 0 0 transparent;
+  --color-btn-primary-inset-shadow: 0 0 transparent;
+  --color-btn-primary-hover-bg: rgb(246 171 0 / 8%);
+  --color-btn-primary-hover-border: #b2b3b8;
+  --color-btn-primary-selected-bg: rgb(246 171 0 / 12%);
+  --color-btn-primary-selected-shadow: 0 0 transparent;
+  --color-btn-primary-disabled-text: rgb(235 230 218 / 48%);
+  --color-btn-primary-disabled-bg: transparent;
+  --color-btn-primary-disabled-border: rgb(153 154 160 / 52%);
+  --color-action-list-item-default-hover-bg: rgb(246 171 0 / 8%);
+  --color-segmented-control-bg: transparent;
+  --color-segmented-control-button-bg: transparent;
+  --color-segmented-control-button-selected-border: #999aa0;
+  --color-fg-default: #ebe6da;
+  --color-fg-muted: #aaa69d;
+  --color-fg-subtle: #85837d;
+  --color-canvas-default: #1d1e22;
+  --color-canvas-overlay: #25262b;
+  --color-canvas-inset: transparent;
+  --color-canvas-subtle: transparent;
+  --color-border-default: #999aa0;
+  --color-border-muted: #65666d;
+  --color-neutral-muted: rgb(235 230 218 / 10%);
+  --color-accent-fg: #f6ab00;
+  --color-accent-emphasis: #f6ab00;
+  --color-accent-muted: rgb(246 171 0 / 30%);
+  --color-accent-subtle: rgb(246 171 0 / 9%);
+  --color-social-reaction-bg-hover: #303137;
+  --color-social-reaction-bg-reacted-hover: #4a390d;
+
+  color-scheme: dark;
+  color: var(--color-fg-default);
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+  background-color: var(--color-canvas-default);
+  background-image:
+    radial-gradient(circle at 18% 14%, rgb(235 230 218 / 3.5%) 0 0.65px, transparent 0.9px),
+    radial-gradient(circle at 74% 61%, rgb(235 230 218 / 2.5%) 0 0.6px, transparent 0.85px),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgb(235 230 218 / 2.2%) 31px 32px);
+  background-size: 7px 9px, 11px 13px, 100% 32px;
+}
+
+.gsc-main,
+.gsc-header,
+.gsc-comments-count,
+.gsc-reactions-count,
+.gsc-comment-box-tabs,
+.gsc-comment-box-bottom,
+.gsc-comment-box-markdown-hint {
+  color: var(--color-fg-default) !important;
+}
+
+.gsc-comment-box {
+  background-color: transparent;
+  border-color: var(--color-border-default) !important;
+}
+
+.gsc-comment-box {
+  border-width: 1px !important;
+  border-style: dashed !important;
+  border-radius: 6px !important;
+  box-shadow: none;
+}
+
+.gsc-comment {
+  border-style: solid !important;
+  border-radius: 4px !important;
+  box-shadow: none;
+}
+
+.gsc-comment-box-textarea,
+.btn {
+  border-radius: 3px !important;
+}
+
+.gsc-comment-box-textarea {
+  color: var(--color-fg-default) !important;
+  background-color: transparent;
+  border-style: solid !important;
+  border-color: var(--color-border-default) !important;
+}
+
+.gsc-comment-box-textarea::placeholder {
+  color: var(--color-fg-muted) !important;
+  opacity: 1;
+}
+
+.gsc-comment-box-tabs button,
+.gsc-reactions-menu-trigger,
+.btn:not(.btn-primary) {
+  color: var(--color-fg-default) !important;
+  background-color: transparent;
+  border-color: var(--color-border-default) !important;
+}
+
+.btn-primary {
+  color: var(--color-btn-primary-text) !important;
+  background-color: transparent !important;
+  border-color: var(--color-btn-primary-border) !important;
+}
+
+.gsc-comment-box-tabs button[aria-selected="true"],
+a {
+  color: var(--color-accent-fg) !important;
+}
+
+.btn,
+.form-control {
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
+}
+
+a {
+  text-underline-offset: 3px;
+}
