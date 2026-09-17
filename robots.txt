@@ -1,0 +1,6 @@
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://6unoyunr.github.io/sitemap.xml
