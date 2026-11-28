@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      // Apply the saved or system theme before the first paint. Preserve the
+      // preference saved by the previous version of the site.
+      try {
+        var theme = localStorage.getItem("theme");
+        if (!theme) {
+          var legacy = localStorage.getItem("darkMode");
+          if (legacy === "true" || legacy === "false") {
+            theme = legacy === "true" ? "dark" : "light";
+            localStorage.setItem("theme", theme);
+          }
+        }
+        var dark = theme === "dark" || ((!theme || theme === "system") && matchMedia("(prefers-color-scheme: dark)").matches);
+        document.documentElement.classList.toggle("dark", dark);
+        document.documentElement.style.colorScheme = dark ? "dark" : "light";
+      } catch (_) {}
+    </script>
+    
+    <meta name="author" content="Junyoung Park" />
+
+    <meta name="twitter:site" content="@6unoyunr" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <script type="module" crossorigin src="/assets/index-CyV6BaKZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-HeOYFPWx.css">
+    <title>Appendix | Junyoung Park</title>
+  <meta name="description" content="Personal notes and hobbies outside Junyoung Park&#39;s professional résumé." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://6unoyunr.github.io/appendix/" />
+  <meta property="og:title" content="Appendix | Junyoung Park" />
+  <meta property="og:description" content="Personal notes and hobbies outside Junyoung Park&#39;s professional résumé." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://6unoyunr.github.io/appendix/" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Appendix | Junyoung Park" />
+  <meta name="twitter:description" content="Personal notes and hobbies outside Junyoung Park&#39;s professional résumé." />
+  <script id="seo-jsonld" type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Appendix | Junyoung Park","description":"Personal notes and hobbies outside Junyoung Park's professional résumé.","url":"https://6unoyunr.github.io/appendix/","isPartOf":{"@type":"WebSite","name":"Junyoung Park","url":"https://6unoyunr.github.io/"}}</script>
+</head>
+
+  <body>
+    <div id="root"><div class="paper-page min-h-screen bg-background font-serif" data-prerendered="appendix"><nav class="paper-nav border-b border-foreground/15" aria-label="Primary"><div class="container mx-auto flex min-h-14 flex-wrap items-center gap-4 px-6 py-3"><a href="/" class="brand-link text-sm text-foreground/70">Home</a><a href="/#about" class="brand-link text-sm text-foreground/70">About</a><a href="/#research" class="brand-link text-sm text-foreground/70">Research</a><a href="/#publications" class="brand-link text-sm text-foreground/70">Publications</a><a href="/#projects" class="brand-link text-sm text-foreground/70">Projects</a><a href="/cv/" class="brand-link text-sm text-foreground/70">CV</a><a href="/appendix/" class="brand-link text-sm text-foreground/70">Appendix</a><a href="/#contact" class="brand-link text-sm text-foreground/70">Contact</a></div></nav><main class="container mx-auto px-6 py-16"><div class="mx-auto max-w-4xl"><h1 class="section-heading pb-2 text-3xl font-bold">Appendix</h1><p class="mt-3 text-sm text-foreground/70">A few personal notes from outside the résumé.</p><p class="mt-3 max-w-2xl text-sm leading-7 text-foreground/80">Notes about jazz piano, training, tennis, travel, wine, and whisky.</p><ul class="mt-8 space-y-3"><li>Hobbies</li><li>Jazz Piano</li><li>Gym</li><li>Tennis</li><li>Travel &amp; Drinks</li></ul></div></main></div></div>
+  </body>
+</html>
